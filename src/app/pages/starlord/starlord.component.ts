@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { StarlordService } from 'src/app/starlord.service';
+import { StarlordService } from './starlord.service';
 
 @Component({
   selector: 'app-starlord',
