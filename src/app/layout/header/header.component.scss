@@ -1,0 +1,32 @@
+@import 'src/styles/main.scss';
+ 
+header {
+  min-height: 10vh;
+  background-color: $white;
+
+  .navbar-brand {
+    width: 10%;
+
+    @media screen and (max-width: 990px) {
+      width: 60%;
+    }
+
+    img {
+      width: 70%;
+
+      @media screen and (max-width: 990px) {
+        width: 30%;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    .nav-link {
+      color: $green;
+    }
+
+    .link-navbar {
+      padding: 10px;
+    }
+  }
+}

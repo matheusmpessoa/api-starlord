@@ -1,0 +1,14 @@
+@import 'src/styles/main.scss';
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  color: $grey;
+  background-color: $white;
+
+  a {
+    color: $green;
+  }
+}
