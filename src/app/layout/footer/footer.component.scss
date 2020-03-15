@@ -1,15 +1,14 @@
 @import 'src/styles/main.scss';
 
 footer {
-  position: fixed;
-  height: 50px;
+  position: relative;
+  height: 60px;
   padding: 15px;
-  background-color: $white;
+  bottom: 0;
+  background-color: $grey;
   color: $grey;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
   margin-bottom: 0px;
+  border-top: 1px solid #ccc;
 
   a {
     color: $green;

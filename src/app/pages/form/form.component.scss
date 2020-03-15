@@ -1,0 +1,45 @@
+@import 'src/styles/main.scss';
+
+.form {
+  border: 1px solid #ccc;
+  padding: 0px 15px;
+
+  .titleForm {
+    background-color: $blue;
+    color: $white;
+    font-weight: 500;
+    font-size: 17px;
+    
+    h3 {
+      font-size: 20px;
+    }
+  }
+  
+  form {
+    background-color: $white;
+    margin: 0px;
+    padding: 10px;
+  
+    .inputsBox {
+      label {
+        font-weight: 500;
+        font-size: 14px;
+      }
+    }
+  
+    .buttonBox {
+      button {
+        background-color: $green-light;
+        border-color: $green-light;
+      }
+    
+      label {
+        font-size: 12px;
+    
+        span {
+          color: $blue-link;
+        }
+      }
+    }
+  }
+}
